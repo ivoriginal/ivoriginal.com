@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Topbar color on Chrome for Android -->
+		<meta name="theme-color" content="#000000" />
+		
+		<title>Video by Ivo</title>
+
+		<!-- Startup configuration -->
+		<link rel="manifest" href="manifest.json">
+		
+		<link rel="icon" href="img/icon.png">
+		
+		<!-- CSS MDL -->
+		<link rel="stylesheet" href="css/mdl/material.min.css">
+		<script src="js/mdl/material.min.js"></script>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+		
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<link rel="stylesheet" href="css/navigation.css" type="text/css" />
+		<link rel="stylesheet" href="css/footer.css" type="text/css" />
+		<link rel="stylesheet" href="css/video.css" type="text/css" />
+		<link rel="stylesheet" href="css/design.css" type="text/css" />
+		<link rel="stylesheet" href="css/media-queries.css" type="text/css" />
+
+		<!-- JS -->
+		<script type="text/javascript" src="js/dropdown.js"></script>
+    	
+    	<!-- Analytics -->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-64206750-1', 'auto');
+		  ga('send', 'pageview');
+		</script>
+
+	</head>
+	
+	<body onload="pleasewait()">
+
+        <!-- No one likes to wait -->
+		<div id="waiting">
+			
+            <span style="font-family: 'Permanent Marker'; font-size: 48px; width: 100%;position: relative; top: 50%;">patience is a virtue</span>
+			
+		</div>
+
+		<script>
+			document.getElementById("waiting").onload = function() {pleasewait()};
+
+			function pleasewait() {
+				document.getElementById("waiting").style.display = "none";
+			}
+		</script>
+		
+		<!-- MDL Layout -->
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header vids">
+
+            <!-- Topbar navigation -->
+			<header style="box-shadow: none;" class="mdl-layout__header header">
+
+    			<div class="mdl-layout__header-row">
+
+					<!-- Title -->
+					<span class="mdl-layout-title"><a href="index.html">ivoriginal</a></span>
+					
+                    <!-- Add spacer, to align navigation to the right -->
+                    <div class="mdl-layout-spacer"></div>
+
+					<!-- Navigation. We hide it in small screens. -->
+					<nav class="mdl-navigation mdl-layout--large-screen-only">
+						<a class="mdl-navigation__link" href="index.html">Home</a>
+						<a class="mdl-navigation__link" href="design.html">Design</a>
+						<a class="mdl-navigation__link current" href="video.html">Video</a>
+						<a class="mdl-navigation__link" href="about.html">About</a>
+						<a class="mdl-navigation__link" href="mailto:hola@ivoriginal.com?Subject=¡Hello!" target="_top">Contact</a>
+					</nav>
+
+					<!-- Right CTA -->
+					<button class="mdl-button right-cta" style="background: white;">
+						<a href="mailto:hola@ivoriginal.com?Subject=¡Hello!" target="_top">Contact</a>
+					</button>
+		
+				</div>
+				
+			</header>
+			
+			<!-- Mobile Bottom Navigation -->
+			<div class="mdl-layout__header bottombar bottombar-black">
+
+                <a href="index.html"><i class="material-icons">home</i></a>
+                <a href="design.html"><i class="material-icons">brush</i></a>
+                <a href="mailto:hola@ivoriginal.com?Subject=¡Hello!" target="_top"><i class="material-icons">mail</i></a>
+                <a style="opacity: 1" href="video.html"><i class="material-icons">videocam</i></a>
+                <a href="about.html"><i class="material-icons">person</i></a>
+
+			</div>
+			
+			<!-- Main content -->
+			<main class="mdl-layout__content">
+			
+			    <!-- Page content -->
+				<div class="page-content">
+
+                <div class="player">
+                    
+                    <iframe width="640" height="360" src="https://www.youtube.com/embed/hktWwJZpQbc?start=94" frameborder="0" allowfullscreen></iframe>
+                
+                </div>         
+
+					<!-- Video portfolio -->
+					<div class="design-gallery">
+
+						<div class="main">
+							
+							<!-- Gradient shown on desktop -->
+							<div class="upper-gradient"></div>
+							
+							<!-- Featured video -->
+							<div class="featured">
+							
+								<a href="https://www.youtube.com/watch?v=vCgVnVdHdNU">
+
+                                    <div class="featured-poster">
+                                       
+                                        <div class="featured-gradient"></div>
+
+                                    </div>
+								
+									<!-- <div class="featured-cta">
+
+										<h2 style="/* margin-bottom: -12px; */ font-family: 'Permanent Marker';">Lefa y Sangre</h2>
+
+										<h4 style="margin: -13px 0px 24px; color: #eee; font-weight: 300;">Music video for Spanish hip hop<br />artist <span style="font-family: 'Permanent Marker';">Jaro Desperdizio<span></span></h4>
+										
+										<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" data-upgraded=",MaterialButton,MaterialRipple" style="
+											margin-left: 0;
+											width: 200px;
+											background-color: red; border-radius: 50px;
+										">Watch now
+											<span class="mdl-button__ripple-container">
+												<span class="mdl-ripple"></span>
+											</span>
+										</button>
+
+									</div> -->
+
+									<div class="featured-cta-mobile">
+                                        <button class="mdl-button">
+                                            <a>WATCH ON YOUTUBE</a>
+                                        </button>
+									</div>
+								
+								</a>
+								
+							</div>
+							
+							<!-- Main gallery -->
+							<div class="video">
+
+								<!-- Lefa y Sangre -->
+								<!-- <div class="link-wrapper">
+									<a href="https://www.youtube.com/watch?v=vCgVnVdHdNU">
+										<div class="link-thumbnail">
+											<img src="img/video/lefa_poster.jpg" alt="">
+										</div>
+                                    </a>
+
+                                    <div class="link-text-wrapper clearfix">
+                                        <div class="link-text">
+
+                                            <h4 class="link-title">Lefa y sangre</h4>
+
+                                            <div class="link-excerpt">Music video for spanish hip hop artist <strong>Jaro Desperdizio</strong>.</div>
+
+                                        </div>
+                                        
+                                    </div>
+								</div> -->
+								
+								<!-- Lo malo da dinero -->
+								<div class="link-wrapper">
+									
+									<a href="https://www.youtube.com/watch?v=MzuVa93X2wA">
+										<div class="link-thumbnail">
+											<img src="img/video/malo_poster.jpg" alt="">
+										</div>
+                                    </a>
+
+                                    <div class="link-text-wrapper clearfix">
+                                        <div class="link-text">
+                                            <h4 class="link-title">Lo malo da dinero<!-- <br /><i>(Bad gives money)</i>--></h4>
+
+                                            <div class="link-excerpt">Music video for this <strong>Kabras</strong> and <strong>Don Igo</strong> collaboration.</div>
+                                        </div>
+                                    </div>
+
+								</div>
+								
+								<!-- In Flames -->
+								<div class="link-wrapper">
+									
+									<a href="https://www.youtube.com/watch?v=hktWwJZpQbc">
+										<div class="link-thumbnail">
+											<img src="img/video/inflames.jpg" alt="">
+										</div>
+                                    </a>
+
+                                    <div class="link-text-wrapper clearfix">
+                                        <div class="link-text">
+
+                                            <h4 class="link-title">Satellites and Astronauts</h4>
+
+                                            <div class="link-excerpt">Cover of <strong>In Flames</strong> anthem recorded at SAE Spain.</div>
+
+                                        </div>
+                                    </div>
+
+								</div>
+								
+								<!-- GSMA -->
+								<div class="link-wrapper">
+									<a href="https://vimeo.com/238640927/9f735a6979">
+										<div class="link-thumbnail">
+											<img src="img/video/gsma_poster.jpg" alt="">
+										</div>
+                                    </a>
+
+                                    <div class="link-text-wrapper clearfix">
+                                        <div class="link-text">
+
+                                            <h4 class="link-title">GSMA Startup Bootcamp</h4>
+
+                                            <div class="link-excerpt">asdf.</div>
+
+                                        </div>
+                                    </div>
+								</div>
+                            
+								<!-- OSWeekends -->
+								<div class="link-wrapper">
+									<a href="https://www.youtube.com/watch?v=PoDAibGlh20&index=2&list=PL7Mq0ktDpPZLH82YLfU2IRbJzFnxEMNSZ">
+										<div class="link-thumbnail">
+											<img src="img/video/osw_poster2.jpg" alt="">
+										</div>
+                                    </a>
+
+										<div class="link-text-wrapper clearfix">
+											<div class="link-text">
+
+												<h4 class="link-title">Open Source Weekends</h4>
+
+												<div class="link-excerpt">Monthly meetup for Open Source passionates.</div>
+
+											</div>
+										</div>
+								</div>
+								
+								<!-- FESTeen -->
+								<div class="link-wrapper">
+									<a href="https://www.instagram.com/p/BGZ7vrEFvVh/?taken-by=festeen_cultura">
+										<div class="link-thumbnail">
+											<img src="img/video/festeen_poster.jpg" alt="">
+										</div>
+                                    </a>
+
+                                    <div class="link-text-wrapper clearfix">
+                                        <div class="link-text">
+
+                                            <h4 class="link-title">FESTeen 2016</h4>
+
+                                            <div class="link-excerpt">Teen culture festival runned by <a href="http://mataderomadrid.org">Matadero Madrid</a>.</div>
+
+                                        </div>
+                                    </div>
+								</div>
+							
+								<!-- Gamify -->
+								<div class="link-wrapper">
+
+									<a href="https://www.youtube.com/watch?v=R7E4cjZke8U">
+										<div class="link-thumbnail">
+											<img src="img/video/bts_poster.jpg" alt="">
+										</div>
+                                    </a>
+
+                                    <div class="link-text-wrapper clearfix">
+                                        <div class="link-text">
+
+                                            <h4 class="link-title">Back to School</h4>
+
+                                            <div class="link-excerpt"><a href="campus.co/madrid">Campus</a> brought the drinks. <a href="http://gamify.es">Gamify</a> brought the fun... and the video.</div>
+
+                                        </div>
+                                    </div>
+
+								</div>
+								
+								<!-- LevelUp! -->
+								<div class="link-wrapper">
+
+									<a href="https://www.youtube.com/watch?v=wrqt62lI--o&t=1s&list=PLye0nleguaIYqa94pWLr-BUM2qz-pK5ev&index=1">
+										<div class="link-thumbnail">
+											<img src="img/video/levelup_poster.jpg" alt="">
+										</div>
+                                    </a>
+
+                                    <div class="link-text-wrapper clearfix">
+                                        <div class="link-text">
+
+                                            <h4 class="link-title">LevelUp!</h4>
+
+                                            <div class="link-excerpt">Spanish webserie following four beer-drinking, video game addict friends who save the world from time to time.</div>
+
+                                        </div>
+                                    </div>
+
+								</div>
+                               
+
+                                <!-- Contact CTA -->
+                                <!-- <div class="design-featured">
+
+                                    <h4>Wanna shoot something together?</h4>
+                                    
+                                    <a href="mailto:hola@ivoriginal.com?Subject=¡Hello!"><button style="border: none; max-width: 200px;">Mail me</button></a>
+
+                                </div> -->
+
+							
+							<!-- Small gallery -->
+							<div class="video video-small">
+                            
+								<!-- Descenso -->
+								<div class="link-wrapper">
+
+									<a href="https://vimeo.com/118793078">
+										<div class="link-thumbnail">
+											<img src="img/video/descenso_poster.jpg" alt="">
+										</div>
+                                    </a>
+
+                                    <!-- <div class="link-text-wrapper clearfix">
+                                        <div class="link-text">
+
+                                            <h4 class="link-title">Descenso</h4>
+
+                                        </div>
+                                    </div> -->
+
+								</div>
+								
+								<!-- Eco de una ausencia -->
+								<div class="link-wrapper">
+
+									<a href="https://vimeo.com/130275420">
+										<div class="link-thumbnail">
+											<img src="img/video/eco_poster2.jpg" alt="">
+										</div>
+                                    </a>
+
+                                    <!-- <div class="link-text-wrapper clearfix">
+                                        <div class="link-text">
+
+                                            <h4 class="link-title">Eco de una ausencia</h4>
+
+                                        </div>
+                                    </div> -->
+
+								</div>
+								
+								<!-- Success Stories -->
+								<div class="link-wrapper">
+
+									<a href="https://www.youtube.com/watch?v=BKp6xTikCXo">
+										<div class="link-thumbnail">
+											<img src="img/video/success_poster.jpg" alt="">
+										</div>
+                                    </a>
+
+                                    <!-- <div class="link-text-wrapper clearfix">
+                                        <div class="link-text">
+
+                                            <h4 class="link-title">Success Stories</h4>
+
+                                        </div>
+                                    </div> -->
+								</div>
+								
+								<!-- Días de Instituto -->
+								<div class="link-wrapper">
+
+									<a href="https://www.youtube.com/watch?v=-HoQKYxWSP4">
+										<div class="link-thumbnail">
+											<img src="img/video/ddi_poster.jpg" alt="">
+										</div>
+                                    </a>
+
+                                    <!-- <div class="link-text-wrapper clearfix">
+											<div class="link-text">
+
+												<h4 class="link-title">Días de Instituto</h4>
+
+											</div>
+										</div> -->
+
+								</div>
+								
+								<!-- Gamify LIVE! -->
+								<div class="link-wrapper">
+									<a href="https://www.youtube.com/watch?v=w7rvLEDhCvg&list=PLDg28owCbi4p7CVW4YO1YlrY5D7VzQNKt">
+										<div class="link-thumbnail">
+											<img src="img/video/glv_poster.jpg" alt="">
+										</div>
+                                    </a>
+
+                                    <!-- <div class="link-text-wrapper clearfix">
+                                        <div class="link-text">
+
+                                            <h4 class="link-title">Gamify LIVE!</h4>
+
+                                            <div class="link-excerpt">Weekly showcase of <a href="http://gamify.es">Gamify</a>'s hottest achievements, shot at <a href="campus.co/madrid">Campus</a>.</div>
+
+                                        </div>
+                                    </div> -->
+								</div>
+                       
+								<!-- UnTTV -->
+								<div class="link-wrapper">
+
+                                   <a href="https://youtu.be/Mv5cIANNSpM?t=5m19s">
+                                   
+                                        <div class="link-thumbnail">
+                                            <img src="img/video/ego_poster_lq.jpg" alt="Ego Stadium">
+                                        </div>
+                                    
+                                    </a>
+
+                                    <!-- <div class="link-text-wrapper clearfix">
+                                        <div class="link-text">
+
+                                            <h4 class="link-title">EGO Stadium</h4>
+
+                                            <div class="link-excerpt">Weekly e-sports show featuring major national CoD and LoL teams.</div>
+
+                                        </div>
+                                    </div> -->
+
+								</div>
+                        
+							</div>
+
+							</div>
+
+						</div>
+
+					</div>
+				
+				</div><!-- End page-content -->
+				
+                <!-- Footer -->
+                <footer class="mdl-mega-footer">
+
+                    <div class="mdl-mega-footer__middle-section">
+
+                        <div class="mdl-mega-footer__drop-down-section">
+                          <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                          <h1 class="mdl-mega-footer__heading">Navigation</h1>
+                          <ul class="mdl-mega-footer__link-list">
+                            <li><a href="/design.html">Design portfolio</a></li>
+                            <li><a href="/video.html">Video portfolio</a></li>
+                            <li><a href="/about.html">About Ivo</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="mdl-mega-footer__drop-down-section">
+                            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                            <h1 class="mdl-mega-footer__heading">Resources</h1>
+                            <ul class="mdl-mega-footer__link-list">
+                            <li>
+                                <a href="mailto:hola@ivoriginal.com?Subject=¡Hello!">Contact</a>
+                            </li>
+                                <li><a href="https://drive.google.com/open?id=17TLQhTFh3c3QPHOI0_wgFsP1CgkY19hNNa3McIBnH34">Slides</a></li>
+                                <li><a href="https://drive.google.com/file/d/1doqsSiP5_cwz2GWK28OUwvWU2tgQd23a/view?usp=sharing">Resume</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="mdl-mega-footer__drop-down-section">
+                            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                            <h1 class="mdl-mega-footer__heading">Social Media</h1>
+                            <ul class="mdl-mega-footer__link-list">
+                                <li>
+                                    <a href="https://www.linkedin.com/in/ivoriginal/http://linkedin.com/ivoriginal">LinkedIn</a>
+                                </li>
+                                <li>
+                                    <a href="http://instagram.com/ivoriginal">Instagram</a>
+                                </li>
+                                <li>
+                                    <a href="http://medium.com/@ivoriginal">Medium</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </footer>
+
+			</main>
+
+		</div> <!-- End layout -->
+		
+	</body>
+
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Topbar color on Chrome for Android -->
+		<meta name="theme-color" content="#000000" />
+		
+		<title>People at Campus – Design by Ivo</title>
+
+		<!-- Startup configuration -->
+		<link rel="manifest" href="manifest.json">
+		
+		<link rel="icon" href="img/imgicon.png">
+		
+		<!-- CSS MDL -->
+		<link rel="stylesheet" href="css/mdl/material.min.css">
+		<script src="js/mdl/material.min.js"></script>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+		
+		<!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<link rel="stylesheet" href="css/design.css" type="text/css" />
+		<link rel="stylesheet" href="css/navigation.css" type="text/css" />
+		<link rel="stylesheet" href="css/footer.css" type="text/css" />
+        <link rel="stylesheet" href="css/media-queries.css" type="text/css" />
+        <link rel="stylesheet" href="css/subpage.css" type="text/css" />
+        
+        <!-- favicon -->
+        <link rel="icon" href="favicon.png">
+        <!-- /favicon -->
+
+    	<!-- Analytics -->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-64206750-1', 'auto');
+		  ga('send', 'pageview');
+		</script>
+		
+	</head>
+	
+	<body onload="pleasewait()">
+
+        <!-- No one likes to wait -->
+		<div id="waiting">
+			
+            <span style="font-family: 'Permanent Marker'; font-size: 48px; width: 100%;position: relative; top: 50%;">patience is a virtue</span>
+			
+		</div>
+
+		<script>
+			document.getElementById("waiting").onload = function() {pleasewait()};
+
+			function pleasewait() {
+				document.getElementById("waiting").style.display = "none";
+			}
+		</script>
+		
+		<!-- MDL Layout -->
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header vids">
+            
+			<header class="mdl-layout__header">
+
+                <!-- arrow back -->
+    			<div class="mdl-layout__header-row">
+
+					<!-- Title -->
+					<span class="mdl-layout-title-back"><a href="index.html" style="color: black; text-decoration: none;"><i class="material-icons">arrow_back</i>Back to Work</a></span>
+		
+				</div>
+				
+			</header>
+			
+			<!-- Main content -->
+			<main class="mdl-layout__content">
+			
+				<div class="page-content">
+
+                    <!-- Gallery -->
+                    <div class="subpage">
+
+                        <!-- Wrapper -->
+                        <div class="main">
+
+                            <!-- Content -->
+                            <div class="link-wrapper-big">
+                                
+                                <!-- Heading -->
+                                <div style="padding: 24px; margin-bottom: 4%; text-align: center;">
+
+                                    <h1>People at Campus</h1>
+                                    <h3>Internal tool for Google for Startups Campus members</h3>
+                                    <h5><strong>Role: </strong>UX researcher / UI designer</h5>
+
+                                    <!-- Accent-colored raised button with ripple -->
+                                    <a href="https://www.campus.co/people/madrid">
+                                    <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button-campus">Open People at Campus</button>
+                                    </a>
+
+                                </div>
+                                <!-- Heading -->
+                               
+                                <!-- Poster -->
+                                <div class="link-thumbnail">
+                                    <img src="img/design/directory_poster.png" alt="directory-thumbnail">
+                                </div>
+                                <!-- /Poster -->
+                                
+                                <!-- Problem -->
+                                <div style="padding: 24px;">
+                                    <h4>Connecting people = activating communities</h4>
+                                    <h5>
+                                    Last summer, the team running the <a href="https://www.campus.co/madrid/">Google for Startups Campus in Madrid</a> detected a problem in how people interact inside the space: there are some groups of more or less connected people with access to all the community's knowledge, but the newcomers and those who didn't manage to get in touch with those groups, are missing some of the key benefits of being part of Campus.<br><br>
+                                    
+                                    Being among the "veteran" members of the community, <a href="http://codingcarlos.com/">Carlos</a> and I teamed up to analyze this problem in depth and find possible solutions.<br><br>
+                                    
+                                    The result of our research is a suite of products to help people connecting with others and building shared knowledge. The first one of these tools is called <a href="https://knowsr.com/">Knowsr</a>. 
+                                    </h5>
+                                </div>
+                                <!-- /Problem -->
+                                
+                                <!-- Contact -->
+                                <div style="padding: 16px 24px;">
+                                    <h4>Do you want to know more about this project?</h4>
+                                    <h5>
+                                        <a href="mailto:hola@ivoriginal.com">Let's get in touch</a>.
+                                    </h5>
+                                </div>
+                                <!-- /Contact -->
+
+                            </div>
+ 
+                        </div>
+                        <!-- Wrapper -->
+
+		            </div>
+		            <!-- /Gallery -->
+                </div>
+                
+            </main>
+            
+        </div><!-- End layout -->
+
+	</body>
+
+</html>
