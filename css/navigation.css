@@ -1,13 +1,12 @@
 /* TOPBAR */
 
 .mdl-layout__header {
-    box-shadow: none;
+  box-shadow: none;
 }
 
 .logo-container {
-    margin-top: 40vh;
+  margin-top: 40vh;
 }
-
 	.logo-container .logo {
 		height: 72px;
 		/* width: 31%; */
@@ -16,25 +15,24 @@
 		position: relative;
 	}
 
-    #waiting .logo-container .logo {
-        width: 100px;
+#waiting .logo-container .logo {
+      width: 100px;
     }
 
 /* Topbar icon  */
 .logo {
-    width: 64px;
-    height: 64px;
-    display: inline-block;
-    /* margin: 0 4px; */
-    /* margin-top: 0px; */
-    background-image: url("../img/logo.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+  /* margin: 0 4px; */
+  /* margin-top: 0px; */
+  background-image: url("../img/logo.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /***/
-
 
 /* Contact CTA */
 .mdl-layout__header-row .mdl-button {
@@ -47,20 +45,17 @@
     min-width: 141px;
     display: inline;
 }
-
-    /* Contact CTA text */
-    .mdl-layout__header-row .mdl-button a {
-        text-decoration: none;
-        color: black;
-        letter-spacing: 0px;
-        line-height: 16px;
-    }
-
-    /* Fixes alignment with selector? */
-    .mdl-layout__header-row .mdl-navigation__link {
-        line-height: 36px;
-    }
-
+  /* Contact CTA text */
+  .mdl-layout__header-row .mdl-button a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0px;
+    line-height: 16px;
+  }
+  /* Fixes alignment with selector? */
+  .mdl-layout__header-row .mdl-navigation__link {
+    line-height: 36px;
+  }
 
 ul {
     margin: 0;
@@ -83,123 +78,121 @@ ul {
 }
 
 .bottombar-black {
-    background: black !important;
+  background: black !important;
 }
-
     .bottombar-black a {
-        color: white;
+      color: white;
     }
 
-.bottombar-white {
+  .bottombar-white {
     background: rgba(255, 255, 255, 0.96) !important;
     border-top: 1px solid #f0f0f0;
-}
+  }
+  .bottombar-white a {
+    color: black;
+  }
 
-    .bottombar-white a {
-        color: black;
-    }
-
-    .bottombar a {
-        width: 24%;
-        text-align: center;
-        display: inline-block;
-        box-sizing: border-box;
-        text-transform: uppercase;
-        margin: 16px 4px;
-        line-height: 2em;
-    }
+  .bottombar a {
+    width: 24%;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    margin: 16px 4px;
+    line-height: 2em;
+  }
 
 .bottombar .material-icons {
-    font-size: 27px;
-    line-height: 1.4;
+  font-size: 27px;
+  line-height: 1.4;
 }
 
 .nav-button {
-    width: 100%;
-    height: 100%;
-    /* background: red; */
-    position: absolute;
-    color: black;
-    text-align: center;
-    box-sizing: border-box;
-    height: 64px;
-    border-top: 1px solid #eee;
+  width: 100%;
+  height: 100%;
+  /* background: red; */
+  position: absolute;
+  color: black;
+  text-align: center;
+  box-sizing: border-box;
+  height: 64px;
+  border-top: 1px solid #eee;
 }
 
 .nav-button a {
-    color: inherit;
-    font-weight: 200;
+  color: inherit;
+  font-weight: 200;
 }
 
 .nav-button span {
-    box-sizing: border-box;
-    /* text-align: center; */
-    line-height: 48px;
-    font-weight: 200;
+  box-sizing: border-box;
+  /* text-align: center; */
+  line-height: 48px;
+  font-weight: 200;
 }
 
 .mdl-layout__header-row {
-    padding: 0 54px;
+  padding: 0 54px;
 }
 
 /***/
 
 /* Desktop nav */
 .mdl-layout__header-row .mdl-navigation__link {
-    color: black;
+  color: black;
 }
 
 .mdl-layout__header-row .mdl-navigation__link {
-    padding: 0 16px;
-    margin: 0px 6px;
-    /* text-transform: uppercase; */
-    display: inline-block;
-    min-width: 40px;
-    text-align: center;
+  padding: 0 16px;
+  margin: 0px 6px;
+  /* text-transform: uppercase; */
+  display: inline-block;
+  min-width: 40px;
+  text-align: center;
 }
 
 .mdl-layout__header {
-    background-color: rgba(255, 255, 255, 0.96);
+  background-color: rgba(255, 255, 255, 0.96);
 }
 
-    .mdl-layout__header-row .mdl-button a {
-        color: white;
-    }
+  .mdl-layout__header-row .mdl-button a {
+    color: white;
+  }
 
 .mdl-navigation__link:hover {
-    color: black !important;
-    background: #00000024;
-    border-radius: 50px;
+  color: black !important;
+  background: #00000024;
+  border-radius: 50px;
 }
 
 /* Navigation selection */
 .current {
-    /* background: black; */
-    /* border-radius: 50px; */
-    /* color: white !important; */
-    border-bottom: 2px solid black;
-    font-weight: 700;
+  /* background: black; */
+  /* border-radius: 50px; */
+  /* color: white !important; */
+  border-bottom: 2px solid black;
+  font-weight: 700;
 }
 
 .mdl-navigation__link {
-    opacity: 1;
+  opacity: 1;
 }
 
 .mdl-button--fab {
-    border-radius: 50px;
-    font-size: 16px;
-    height: 56px;
-    margin: auto;
-    min-width: 172px;
-    /* width: 56px; */
-    padding: 0;
-    overflow: hidden;
-    background: rgba(158,158,158,.2);
-    box-shadow: 0px 8px 56px 8px rgba(0, 0, 0, 0.16);
-    position: relative;
-    line-height: normal;
-    padding: 0px 24px;
-    border: 1px solid #565656;
+  border-radius: 50px;
+  font-size: 16px;
+  height: 56px;
+  margin: auto;
+  min-width: 172px;
+  /* width: 56px; */
+  padding: 0;
+  overflow: hidden;
+  background: rgba(158,158,158,.2);
+  box-shadow: 0px 8px 56px 8px rgba(0, 0, 0, 0.16);
+  position: relative;
+  line-height: normal;
+  padding: 0px 24px;
+  border: 1px solid #565656;
 }
 
 .mdl-button--fab.mdl-button--colored {
@@ -217,21 +210,21 @@ ul {
 }
 
 .mdl-button--fab.mdl-button--colored:hover {
-    background-color: #ffffff;
-    color: black;
-    box-shadow: 0px 8px 32px 8px rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  color: black;
+  box-shadow: 0px 8px 32px 8px rgba(0, 0, 0, 0.16);
 }
 
 .mdl-button--fab.mdl-button--colored:active {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .mdl-button--fab .material-icons {
-    position: absolute;
-    top: 50%;
-    left: 24%;
-    -webkit-transform: translate(-12px,-12px);
-    transform: translate(-12px,-12px);
-    line-height: 24px;
-    width: 24px;
+  position: absolute;
+  top: 50%;
+  left: 24%;
+  -webkit-transform: translate(-12px,-12px);
+  transform: translate(-12px,-12px);
+  line-height: 24px;
+  width: 24px;
 }
