@@ -15,14 +15,10 @@ body, html {
     font-smoothing: antialiased;
 }
 
-strong {
-    font-family: 'Roboto-Bold';
-}
-
 a {
 	text-decoration: none;
-    color: inherit;
-    font-weight: inherit;
+  color: inherit;
+  font-weight: inherit;
 }
 
 /* Fixes hover selection */
@@ -40,17 +36,10 @@ a {
     width: 100%;
 }
 
-/* Name branding */
-.mdl-layout-title {
-	font-size: 24px;
-    font-family: 'Permanent Marker';
-}
-
 .mdl-spinner {
     width: 64px;
     color: white;
 }
-
     .mdl-spinner:not(.is-upgraded).is-active:after {
         content: "Patience is a virtue";
     }
@@ -62,6 +51,7 @@ a {
 
 /***/
 
+
 .home {
     text-align: left;
     /* margin-bottom: 71px; */
@@ -70,23 +60,14 @@ a {
     height: 100%;
 }
 
-    .home a {
-        text-decoration: underline;
-    }
+  .home a {
+      text-decoration: underline;
+  }
 
-    .home a:hover {
-        color: #adadad;
-    }
+  .home a:hover {
+      color: #adadad;
+  }
 
-    .home h2 {
-        font-size: 31px;
-        font-weight: 300;
-    }
-
-    .home h2 a:hover {
-        background: none;
-        color: black
-    }
 
 /* GRADIENTS */
 
@@ -137,15 +118,25 @@ a {
 /***/
 
 
-/* h123456 */
+/* TYPOGRAPHY */
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: normal;
+}
 
 h6 {
 	letter-spacing: 0;
 	text-align: left;
-}
-
-h1 img {
-	width: 300px;
 }
 
 /***/
@@ -180,7 +171,7 @@ h1 img {
 }
 
 
-/* footer */
+/* FOOTER */
 
 .mdl-mega-footer--heading, .mdl-mega-footer__heading {
     padding: 0px;
