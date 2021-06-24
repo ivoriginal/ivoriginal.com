@@ -1,131 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+---
 
-	<head>
+{% include section-hero.html %}
 
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+{% include section-now.html %}
 
-		<!-- Topbar color on Chrome for Android -->
-		<meta name="theme-color" content="#000000" />
-		
-		<title>Ivo diseña y programa (pero no mucho)</title>
+{% include section-portfolio.html %}
 
-		<link rel="manifest" href="manifest.json">
-		
-		<link rel="icon" href="img/imgicon.png">
-		
-		<!-- CSS MDL -->
-		<link rel="stylesheet" href="css/mdl/material.min.css">
-		<script src="js/mdl/material.min.js"></script>
-		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-		
-		<!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-		
-		<!-- Custom CSS -->
-		<link rel="stylesheet" href="css/style.css" type="text/css" />
-		<link rel="stylesheet" href="css/navigation.css" type="text/css" />
-    <link rel="stylesheet" href="css/media-queries.css" type="text/css" />
+{% include section-talks.html %}
 
-    <!-- favicon -->
-    <link rel="icon" href="favicon.png">
-    <!-- /favicon -->
-
-    	<!-- Analytics -->
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-		  ga('create', 'UA-64206750-1', 'auto');
-		  ga('send', 'pageview');
-		</script>
-		
-	</head>
-	
-	<body onload="pleasewait()">
-
-    <!-- No one likes to wait -->
-		<div id="waiting">
-      <span style="font-family: 'Permanent Marker', sans-serif; font-size: 48px; width: 100%;position: relative; top: 50%;">patience is a virtue</span>
-		</div>
-
-		<script>
-			document.getElementById("waiting").onload = function() {pleasewait()};
-
-			function pleasewait() {
-				document.getElementById("waiting").style.display = "none";
-			}
-		</script>
-		
-		<!-- MDL Layout -->
-		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header vids">
- 
-			<!-- <header class="mdl-layout__header home-header">
-        <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title"><a href="index.html" style="color: black;">ivo</a></span>
-          <div class="mdl-layout-spacer"></div>
-          <nav class="mdl-navigation mdl-layout--large-screen-only">
-            <a class="mdl-navigation__link current" href="index.html">Work</a>
-            <a class="mdl-navigation__link" href="about.html">About</a>
-            <a class="mdl-navigation__link" href="contact.html">Contact</a>
-          </nav>
-				</div>
-			</header> -->
-
-      <!-- Mobile Navigation -->
-			<!-- <div class="mdl-layout__header bottombar bottombar-white">
-        <a href="index.html" class="current">Work</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-			</div> -->
-			
-			<!-- Main content -->
-			<main class="mdl-layout__content">
-				<div class="page-content">
-          <!-- Colored FAB button -->
-          <a href="mailto:ivo@commitsans.com">
-           <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
-            <i class="material-icons" style="display: inline-block; /* position: relative; */">chat</i><span style="display: inline-block; position: relative; /* width: auto; */ margin-left: 32px;">Contacto</span>
-          </button> 
-          </a>
-          <!-- intro -->
-          <div class="home">
-            <div>
-              <p>
-              ༼ つ ◕‿◕ ༽つ&nbsp;&nbsp; <strong>Ivo Vilches</strong> · @ivoriginal
-              </p>
-              <h1>
-              Diseño y desarrollo de productos digitales
-              </h1>
-              <h2>
-              Hago webs y apps desde cero, o te arreglo lo que ya tengas. Me llamo <strong>Ivo</strong>, y me gusta trabajar poco y bien.
-              </h2>
-              <h3>
-              Tengo un estudio que se llama <a href="https://commitsans.com/">Commit Sans</a>, donde te podemos hacer desde una campaña de marketing hasta una tortilla de patatas (con cebolla, claro). Pero te seré franco: nos gusta más hacer webs.
-              <br><br>
-
-              También soy profe y ponente de renombre intercomarcal*. Si curras en un instituto (o algo así) y quieres que vaya a hablar de diseño o emprendimiento, llámame y voy. No sé mucho, pero hago risa. Si curras en una empresa, págame y voy también.
-              <br><br>
-
-              Por otro lado, si quieres gestionar mejor tu equipo o tu comunidad, échale un ojo a <a href="https://communitytools.co/">Community Tools</a>, un software bastante guapo que hemos hecho <a href="https://codingcarlos.com/">Carlos</a> y yo para ayudar a la gente a conectar.
-              <br>
-
-              </h3>
-              <p style="border-top: 1px solid black; padding: 16px 0px;">
-                *según <a href="https://twitter.com/gootyfer/status/861891215503089664?s=20">fuentes externas</a>
-              </p>
-            </div>
-          </div>
-          <!-- /intro -->
-        </div>
-      </main>
-
-    </div>
-    <!-- End layout -->
-
-	</body>
-
-</html>
+<!-- <div class="background-gray" style="margin-top: 64px; padding-bottom: 32px;">
+    {% include banner.html %}
+</div> -->
