@@ -118,13 +118,26 @@
 }
 
 // Banner
-.banner {
+.banner, .banner-2 {
   display: flex;
   background-color: var(--light-gray);
   margin-bottom: 32px;
   border-radius: 8px;
   padding: 16px 24px;
   background-color: white;
+
+  .button {
+    text-align: center;
+    align-self: center;
+  
+    @media (min-width: $desktop) {
+      width: 300px;
+    }
+  
+    @media (max-width: $desktop) {
+      margin-top: 24px;
+    }
+  }
 
   @media only screen and (min-width: $tablet) and (max-width: $desktop) {
     padding: 16px 80px;
@@ -139,6 +152,29 @@
       margin-bottom: -16px;
     }
   }
+}
+
+.banner-2 {
+
+  padding: 24px;
+
+  .button {
+    align-self: auto;
+    margin-top: 16px
+  }
+
+  .banner__subtitle {
+    font-size: 1.2rem;
+  }
+
+  .banner__head {
+    margin-left: 0px;
+    text-align: left;
+  }
+
+  img {
+    border-radius: 8px;
+  }
 
 }
 
@@ -151,7 +187,6 @@
   @media (min-width: $desktop) {
     margin-left: 8px;
   }
-
 }
 
 .banner__title {
@@ -165,16 +200,44 @@
   font-size: 1.4rem;
 }
 
-.banner .button {
-  text-align: center;
-  align-self: center;
+.article-card {
+  display: flex;
+  background-color: var(--light-gray);
+  margin-bottom: 32px;
+  border-radius: 8px;
+  padding: $base-spacing-unit * 1.5;
+  align-items: center;
+  background-color: white;
 
-  @media (min-width: $desktop) {
-    width: 300px;
+  @media (max-width: $mobile) {
+    flex-direction: column-reverse;
+    padding: 0;
   }
 
-  @media (max-width: $desktop) {
-    margin-top: 24px;
+  .article-card__head {
+    // padding: $base-spacing-unit;
+
+    @media (max-width: $mobile) {
+      padding: $base-spacing-unit;
+    }
+
+  }
+
+  .banner__title {
+    font-size: $base-font-size * 1.250 * 1.250;
+  }
+
+  .banner__subtitle {
+    margin: 0;
+  }
+
+  img {
+    // border-radius: 0 8px 8px 0 !important;
+    border-radius: 0 !important;
+
+    @media (max-width: $mobile) {
+      border-radius: 8px 8px 0 0 !important;
+    }
   }
 
 }

@@ -2,10 +2,12 @@
 .header {
 
   height: 72px;
+  // for the notification
+  // flex-direction: column;
 
   @media only screen and (min-width: $tablet) {
     // max-height: 64px;
-    padding: 0px 16px;
+    // padding: 0px 16px;
   }
 
   .container {
@@ -14,9 +16,8 @@
 
 }
 
-
 .header, .header-blog {
-  background-color: #fafafa;
+  background-color: white;
   border-bottom: 1px solid #e0e0e0;
   position: fixed;
   top: 0px;
@@ -41,10 +42,26 @@
   }
 }
 
+// BLOG
+// 
 .header-blog, .hero-blog {
   border-bottom: 1px solid #afc680;
   background-color: #c5e38a;
 }
+
+// 
+.header-blog {
+
+  // .button {
+  //   padding: 8px 16px;
+  // }
+
+  // 
+  .button--text {
+    border: none;
+  }
+}
+// /BLOG
 
 /* Logo */
 .logo {
@@ -156,6 +173,7 @@
     display: flex;
     margin-right: 48px;
     margin-bottom: 0;
+    margin-top: 0;
 
     &:last-child {
       margin-right: 0;
@@ -338,7 +356,7 @@
 }
 
 .tabs {
-  background-color: #fafafa;
+  background-color: white;
   border-bottom: 1px solid #e0e0e0;
   position: fixed;
   width: 100%;

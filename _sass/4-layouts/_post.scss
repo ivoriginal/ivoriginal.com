@@ -45,22 +45,18 @@
   text-align: center;
 }
 
-.page__info {
+.page__info, .post__info {
   padding-top: 40px;
-}
-
-.post__info {
-  text-align: center;
-  padding-top: 72px;
 
   @media only screen and (max-width: $desktop) {
-    max-width: 100%;
-    // margin: 40px auto;
+    padding-top: 24px;
   }
 
-  @media only screen and (max-width: $mobile) {
-    // margin: 40px auto 32px;
-  }
+}
+
+// should work on page info too
+.post__info {
+  margin-bottom: 40px;
 }
 
 .post__tags {
@@ -87,22 +83,62 @@
       margin-right: 0;
     }
   }
+
+  @media only screen and (max-width: $tablet) {
+    white-space: nowrap;
+    overflow: auto;
+    display: inline-block;
+    width: 100%;
+    padding: 8px 0;
+    margin: 8px 0;
+  }
+
 }
 
-.page__description {
+// 
+.page__client-tags {
+  align-items: start;
+  flex-direction: column;
+
+  // 
+  @media only screen and (min-width: $tablet) {
+    align-items: center;
+    margin-top: 0;
+    flex-direction: row;
+  }
+
+  // 
+  .page__client  {
+    display: ruby;
+  
+    @media only screen and (max-width: $tablet) {
+      margin: $base-spacing-unit 0;
+
+      .slash {
+        display: none;
+      }
+    }
+
+  }
+
+}
+
+.page__description, .post__description {
   font-size: 1.8rem;
   // line-height: 1.6rem;
 
   @media only screen and (max-width: $mobile) {
     font-size: 1.4rem;
     line-height: 1.6rem;
+    margin-bottom: 8px !important;
   }
 }
 
 .page__client {
   // font-size: 1.2rem;
   // align-items: center;
-  margin-top: $base-spacing-unit;
+  // margin-top: $base-spacing-unit;
+  margin-right: $base-spacing-unit;
   
   img {
     width: 200px;
@@ -113,8 +149,9 @@
 .post__title,
 .page__title {
   font-size: 62px;
-  line-height: 1.2;
-  // margin-bottom: 16px;
+  line-height: 1;
+  // line-height: 56px;
+  margin-bottom: 16px;
 
   @media only screen and (max-width: 1140px) {
     font-size: 64px;
@@ -151,6 +188,11 @@
 
 .page-image {
   margin-top: 40px;
+
+  @media only screen and (max-width: $desktop) {
+    margin-top: $base-spacing-unit;
+  }
+
 }
 
 .post-image,

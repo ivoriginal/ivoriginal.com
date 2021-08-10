@@ -3,6 +3,7 @@
   // margin-bottom: 32px;
   will-change: transform;
   transition: transform .2s;
+  // border-bottom: 1px solid gray;
 
   &:hover {
     transform: translateY(-3px);
@@ -42,7 +43,20 @@
 
 }
 
+.article__content .button {
+  width: 100%;
+  text-align: center;
+  margin-top: 16px;
+}
 
+.blog-posts .article {
+  border-bottom: 1px solid var(--medium-gray);
+  width: 100% !important;
+}
+
+.blog-posts .article:last-child {
+  border-bottom: none;
+}
 
 .article__head {
   position: relative;
@@ -134,7 +148,11 @@
 .now {
 
   .article__inner {
-    text-align: center;
+    // text-align: center;
+    border: 1px solid var(--medium-gray);
+    border-radius: 8px;
+    background: white;
+    padding: $base-spacing-unit * 1.5;
   }
   
   .article__title {
@@ -154,26 +172,102 @@
 
 }
 
-.now .article__inner {
-  border: 1px solid var(--medium-gray);
-  border-radius: 8px;
-  background: var(--light-gray);
-}
-
-.now .article__content {
-  padding: ($base-spacing-unit);
-}
-
 // 
 .now .article, .work .article {
   margin-bottom: 32px
 }
 
-// 
+// BLOG
 .blog {
 
-  // .article__image {
-  //   right: 0px;
-  // }
+  .article__inner {
+    background: transparent;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .img-container {
+    width: 200px;
+    min-width: 200px;
+    height: 134px;
+    img {
+      display: block;
+      // max-width:230px;
+      // max-height:95px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+}
+
+.blog-layout {
+  @media only screen and (max-width: $desktop) {
+    
+    flex-direction: column-reverse;
+
+    .blog__title {
+      padding: 0;
+    }
+
+    .tags {
+      display: flex;
+      flex-direction: row;
+      padding: 0;
+
+      .tag {
+        margin-right: 8px;
+      }
+
+    }
+
+  }
+
+  .categories {
+
+    @media only screen and (max-width: $desktop) {
+      border-bottom: 1px solid var(--medium-gray);
+      margin-bottom: $base-spacing-unit;
+      padding-bottom: $base-spacing-unit;
+    }
+
+    @media only screen and (min-width: $desktop) {
+      border: 1px solid var(--medium-gray);
+      padding: 16px;
+      border-radius: 8px;
+      height: max-content;
+    }
+
+  }
+
+}
+
+.blog-snippets {
+
+  .article {
+    @media screen and (max-width: $tablet) {
+      width: 100%;
+    }
+  }
+
+  .article__inner {
+    background: white;
+    padding: 16px;
+    border: 1px solid var(--medium-gray);
+    border-radius: 8px;
+
+    @media screen and (max-width: $desktop) {
+      flex-direction: column-reverse;
+    }
+  }
+
+  .img-container {
+    @media screen and (max-width: $desktop) {
+      width: 100%;
+      height: 180px;
+      margin-bottom: $base-spacing-unit / 2;
+    }
+  }
 
 }
