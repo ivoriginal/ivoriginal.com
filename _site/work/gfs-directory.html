@@ -187,22 +187,24 @@
       <ul class="no_toc" id="markdown-toc">
   <li><a href="#the-client-helping-entrepreneurs-grow" id="markdown-toc-the-client-helping-entrepreneurs-grow"><strong>The client</strong>: helping entrepreneurs grow</a></li>
   <li><a href="#the-problem-surrounded-by-people-yet-alone" id="markdown-toc-the-problem-surrounded-by-people-yet-alone"><strong>The problem</strong>: surrounded by people, yet alone</a></li>
-  <li><a href="#the-process-digitalizing-our-informal-knowledge" id="markdown-toc-the-process-digitalizing-our-informal-knowledge"><strong>The process</strong>: digitalizing our informal knowledge</a>    <ul>
-      <li><a href="#the-findings-unknown-unknowns" id="markdown-toc-the-findings-unknown-unknowns">The findings: unknown unknowns</a></li>
+  <li><a href="#the-process" id="markdown-toc-the-process"><strong>The process</strong></a>    <ul>
+      <li><a href="#digitalizing-our-informal-knowledge" id="markdown-toc-digitalizing-our-informal-knowledge">Digitalizing our informal knowledge</a></li>
+      <li><a href="#the-research-part-1" id="markdown-toc-the-research-part-1">The research (part 1)</a></li>
+      <li><a href="#the-findings" id="markdown-toc-the-findings">The findings</a></li>
     </ul>
   </li>
   <li><a href="#the-products" id="markdown-toc-the-products"><strong>The product(s)</strong></a>    <ul>
       <li><a href="#the-mvp" id="markdown-toc-the-mvp">The MVP</a></li>
-      <li><a href="#the-tech-stack" id="markdown-toc-the-tech-stack">The tech stack</a></li>
+      <li><a href="#the-initial-tech-stack" id="markdown-toc-the-initial-tech-stack">The (initial) tech stack</a></li>
       <li><a href="#the-first-iteration" id="markdown-toc-the-first-iteration">The first iteration</a></li>
-      <li><a href="#research-results-and-biases" id="markdown-toc-research-results-and-biases">Research results and biases</a></li>
       <li><a href="#the-search-experience-10" id="markdown-toc-the-search-experience-10">The search experience (1.0)</a></li>
-      <li><a href="#the-backoffice" id="markdown-toc-the-backoffice">The backoffice</a></li>
     </ul>
   </li>
   <li><a href="#going-global" id="markdown-toc-going-global"><strong>Going global</strong></a>    <ul>
+      <li><a href="#the-other-product" id="markdown-toc-the-other-product">The <em>other</em> product</a></li>
       <li><a href="#the-research-part-2" id="markdown-toc-the-research-part-2">The research (part 2)</a></li>
       <li><a href="#new-needs-new-features" id="markdown-toc-new-needs-new-features">New needs, new features</a></li>
+      <li><a href="#changes-to-the-backoffice" id="markdown-toc-changes-to-the-backoffice">Changes to the backoffice</a></li>
     </ul>
   </li>
   <li><a href="#the-second-iteration-a-modular-architecture" id="markdown-toc-the-second-iteration-a-modular-architecture"><strong>The second iteration</strong>: a modular architecture</a>    <ul>
@@ -242,8 +244,9 @@
 
 <p>If you’re lucky enough to get accepted into <a href="https://campus.co/">one of Google for Startups campuses</a>, you’ll be surrounded by founders, amazing technical people and so on, so you’ll want to meet as many people as possible while your –typycally six months– membership lasts.</p>
 
-<h3 id="the-process-digitalizing-our-informal-knowledge"><strong>The process</strong>: digitalizing our informal knowledge</h3>
+<h3 id="the-process"><strong>The process</strong></h3>
 
+<h4 id="digitalizing-our-informal-knowledge">Digitalizing our informal knowledge</h4>
 <p>At that time, <a href="https://codingcarlos.com/">Carlos</a> and I had been part of the Madrid community for 5+ years, so <strong>we basically had met everyone</strong>. When the Campus team started exploring how they could help people connect inside the community, they didn’t take long to notice that we might have some insights on that.</p>
 
 <p><a href="https://www.linkedin.com/in/eduque/">Edu Duque</a> scheduled a meeting with us that kickstarted the coolest project I’ve ever been part of. We had a lot of informal knowledge, and this was the perfect chance to organise it; we drafted a simple script, a list of topics that we wanted to understand better and started the first round of <strong>interviews</strong>.</p>
@@ -251,9 +254,9 @@
 <p><img src="/images/work/gfs-directory/mad.jpg" alt="Carlos and I, gathering insights" />
 <em>Carlos (left) chatting with two members of the Madrid community over coffee</em></p>
 
-<p>#### The research (part 1)</p>
+<h4 id="the-research-part-1">The research (part 1)</h4>
 
-<p>The script: questions where divided into 5 categories:</p>
+<p>For our first round of interviews, we drafted a script with 5 categories of questions:</p>
 
 <ul>
   <li><strong>First contact</strong>: how did you find about the campus?</li>
@@ -263,21 +266,45 @@
   <li><strong>Tools and processes</strong>: how do you communicate with your co-workers? And with your colleagues from the knitting meetup? And with your friends?</li>
 </ul>
 
-<!-- Asking that very same questions in the Tel Aviv community lead to very interesting insights, but you'll have to keep reading to find out. -->
+<p>We wanted to know how people used the space. How and where they connected with other members. Who were they co-working buddies and how they met. What they expected from the space and if they were aware or not about the things they had access to. For example: it was possible to ask for a passport to use co-workings that were part of the Google for Startups network in other countries, but… do members know? If so, how they found out?</p>
 
-<h4 id="the-findings-unknown-unknowns">The findings: unknown unknowns</h4>
+<div style="background: var(--syntax-highlighting-background); padding: 8px; margin-bottom: 24px; border-radius: 8px;">
+  <code>We forgot to include something very important: devices they use and how. We'll find out more about this in <a href="#the-first-iteration">the first iteration</a>.
+  </code>
+</div>
 
-<p>We soon realised that the main problem when trying to integrate is that <strong>you don’t know what you don’t know</strong>. If you randomly talked with Carlos, he’ll ask you about your background and find good matches for you. If no one tells you to talk to a connector like him, you’ll probably be relatively isolated for a while.</p>
+<h4 id="the-findings">The findings</h4>
 
-<p>We also found out that the main reason to look for new connections was needing help with a certain tool or technology (say Mixpanel or Python), but if you haven’t met at least one technical profile… who should you ask for help? To have a better understanding of all the parties involved, primary and secondary users, their needs, our (legal) constraints and so on, we spent a few days mapping it all.</p>
+<p>We soon realised that in the Madrid community people gathered around verticals (industry or profession). The <strong>secondary user</strong> was the space manager, but we had different segments of <strong>primary users</strong>:</p>
 
-<p><img src="/images/work/gfs-directory/canvas.jpg" alt="UX Mapping" /></p>
+<ul>
+  <li>The <strong>well connected founder</strong> who wants to hire and to raise money.</li>
+  <li>The <strong>not so well connected founder</strong> who wants to connect with other founders.</li>
+  <li>The <strong>unhappy employee</strong> who’s looking for new opportunities.</li>
+  <li>The <strong>happy employee</strong> who wants to socialise.</li>
+</ul>
+
+<p>And the list goes on and on. But the key that made people connect was, given that you know what you need, being able to discover who’s providing it.</p>
+
+<p>If you randomly talked with a connector like Carlos, he’ll ask you about your background and find good matches for you, so that’s <strong>the core need that we’ll need to help fix with technology</strong>: finding out who knows who without someone(s) acting as bottlenecks.</p>
+
+<p>We also found out that another reason to proactively look for new connections was <strong>needing help with a certain tool</strong> or technology (say Mixpanel or Python), but if you haven’t met at least one technical profile… who should you ask for help?</p>
+
+<p>To have a better understanding of all the parties involved, primary and secondary users, their needs, our (legal) constraints and so on, we spent a few days mapping it all.</p>
+
+<p><img src="/images/work/gfs-directory/canvas.jpg" alt="UX Mapping" />
+<em>Me, filling a UX canvas</em></p>
 
 <h3 id="the-products"><strong>The product(s)</strong></h3>
 
 <h4 id="the-mvp">The MVP</h4>
 
-<p>For the pilot, we finally decided to build <strong>a simple directory</strong> of people with the ability to search by name, company and skill; the back-end would be a simple Google spreadsheet managed by the Campus team. User-generated content is risky, so the Campus would provide professional headshots by <a href="https://www.instagram.com/p/B_hgK19jhvD/" target="_blank">Mario</a>, their in-house photographer.</p>
+<p>For the pilot, we finally decided to build <strong>a simple directory</strong> of people with the ability to search by name, company and skill; the back-end would be a simple Google spreadsheet managed by the Campus team.</p>
+
+<p><img src="/images/work/gfs-directory/ss-first.png" alt="First version" />
+<em>Yes, the MVP was… ugly</em></p>
+
+<p>User-generated content is risky, so the Campus would provide professional headshots by <a href="https://www.instagram.com/p/B_hgK19jhvD/" target="_blank">Mario</a>, their in-house photographer.</p>
 
 <div class="gallery-box">
   <div class="gallery">
@@ -291,7 +318,7 @@
   <em>Headshots by <a href="https://www.instagram.com/p/B_hgK19jhvD/" target="_blank">Mario</a></em>
 </div>
 
-<h4 id="the-tech-stack">The tech stack</h4>
+<h4 id="the-initial-tech-stack">The (initial) tech stack</h4>
 
 <p>The front-end was built with vue.js + Vuetify, because:</p>
 <ol>
@@ -305,35 +332,34 @@
 
 <p>The first version of the directory looked really cool on mobile, but for bigger viewports it was fairly ugly and difficult to use. On desktop, the directory showed a grid of (massive) cards, while for mobile we designed a small variant of our card component to show a vertical list.</p>
 
-<p><img src="/images/work/gfs-directory/ss-first.png" alt="First version" />
-<em>Yes, the MVP was… ugly</em></p>
-
-<h4 id="research-results-and-biases">Research results and biases</h4>
-
 <p>We <strong>assumed</strong> that you wander around the space looking for someone on your phone, so we focused on the mobile UI, following the “mobile first” mantra. That was just plain stupid: if you visit the Campus, you’ll see almost everyone sitting at their desk, working on their laptops. Kudos to us.</p>
 
-<p>“Mobile first” doesn’t (or shouldn’t) mean “build your UI for small viewports and then adapt to the bigger ones”. It was meant for an era when clients still told you to make everything “responsive”. 
-After releasing that first version, analytics helped us realise that <strong>+80% of traffic came from desktop</strong>, so focusing on the mobile UI didn’t look like the best plan anymore.</p>
+<p>After releasing that first version, analytics helped us realise that <strong>+80% of traffic came from desktop</strong>, so focusing on the mobile UI didn’t look like the best plan anymore. “Mobile first” doesn’t (or shouldn’t) mean “build your UI for small viewports and then adapt to the bigger ones”. It was meant for an era when clients still told you to make everything “responsive”.</p>
 
-<p>We quickly <strong>iterated</strong> the interaction model:</p>
+<p>We quickly <strong>iterated</strong> the interaction model, keeping all the good decisions we took for the mobile version but focusing more on the desktop experience:</p>
 
 <p><img src="/images/work/gfs-directory/ss-no-filters.png" alt="Search by skill" />
 <!-- *Search by skill* --></p>
 
-<p>(…)</p>
-
 <h4 id="the-search-experience-10">The search experience (1.0)</h4>
 
-<p>We designed that huge search bar on the top to gather data from search queries. It was amazing. Some people typed names like “Andrea”, skills like “UX” and “WordPress”, and we found a surprisingly large amounts of queries like “free beer” and “events with beer” (LOL).</p>
+<p>We designed that huge search bar on the top <strong>to gather data from search queries</strong>. It was amazing. Some people typed names like “Andrea”, skills like “UX” and “WordPress”, and we found a surprisingly large amounts of queries like “free beer” and “events with beer”.</p>
 
 <p>And before you ask: no, we’re not building an event related feature (yet). Go find your own free beer.</p>
 
 <p>We used some of this info to craft a new placeholder indicating what kind of things you can search for in one sentence: “Try <strong>RatedPower</strong> (a well known startup inside the community), <strong>Andrea</strong> (a well known person inside the community) or <strong>UX</strong> (one skill that most of people know–more than PHP, probably)”</p>
 
-<p>But we soon realised that this tool is meant to <i>discover</i>, not to <i>find</i>, so there should be a different way of <i>searching</i>. For that, we released this “quick filter” bar:</p>
-
-<p><img src="/images/work/gfs-directory/ss-search.png" alt="Search by skill" />
+<p><img src="/images/work/gfs-directory/ss-search-2.png" alt="Search bar" />
 <!-- *Search by skill* --></p>
+
+<p>But we soon realised that this tool is meant to <i>discover</i>, not to <i>find</i>, so there should be a different way of <i>searching</i>.</p>
+
+<p>By this time, the Program Manager was pushing (…) so we already had the data. We only needed to find a way to interact with it, and our take was this “quick filter” bar:</p>
+
+<!--![Search by skill](/images/work/gfs-directory/ss-search.png)-->
+<!-- *Search by skill* -->
+
+<p><img src="/images/work/gfs-directory/gfs_search-2.png" alt="Search by skill" /></p>
 
 <p>We remembered this quote from one of our interviews:</p>
 
@@ -341,21 +367,26 @@ After releasing that first version, analytics helped us realise that <strong>+80
   <p>The ability to see who has a similar skillset to your own is a great icebreaker.</p>
 </blockquote>
 
-<p>This way, a user could select the skills they’re interested in and sort the content in different ways: alphabetically, by program and so on. Implementing that quick filter bar greatly increased profile views and search by skill, so it looked like we were headed in the right direction, but then, Tel Aviv came.</p>
-
-<h4 id="the-backoffice">The backoffice</h4>
-
-<p>We ended up developing a tool (…)</p>
+<p>This way, a user could select the skills they’re interested in and sort the content in different ways: alphabetically, by program and so on. Implementing that quick filter bar greatly increased profile views and search by skill, so it looked like we were headed in the right direction.</p>
 
 <h3 id="going-global"><strong>Going global</strong></h3>
+
+<h4 id="the-other-product">The <em>other</em> product</h4>
+
+<p>A spreadsheet as backend was just fine for the pilot, but as the product grew, we ended up developing an actual backend with Neo4j and <em>another</em> tool for space managers to approve or reject profiles, to add people or startups manually and even to add an FAQ menu.</p>
+
+<p><img src="/images/work/gfs-directory/gfs_backoffice-old.png" alt="The backoffice" />
+<em>The first version of the back-office</em></p>
+
+<p>We’ll talk later about how it evolved to adapt to our clients needs.</p>
 
 <h4 id="the-research-part-2">The research (part 2)</h4>
 
 <p>That initial pilot in Madrid had great engagement metrics, so the Google for Startups team decided to turn our little pilot into an <strong>offical product</strong>. We’d scale it to other 3 hubs (São Paulo, London and Tel Aviv), and then to all the remaining campuses (Warsaw, Tokyo and Seoul).</p>
 
-<p>Always keeping in mind the “unknowns unknowns”, we concluded that we’d need to visit all Campuses to do some on-site research before releasing a product within communities that (almost certainly) had different ways of connecting and communicating.</p>
+<p>Always keeping in mind the “unknowns unknowns”, we concluded that we needed to visit all Campuses to do some on-site research before releasing a product within communities that (almost certainly) had different ways of connecting and communicating.</p>
 
-<p>The team was absolutely on board with that idea, so they allocated some budget for this “second phase” and we packed up and spent some days in London, Tel Aviv and São Paulo.</p>
+<p>The team was absolutely on board with that idea, so they allocated some budget for this second phase and we packed up and spent some days in London, Tel Aviv and São Paulo.</p>
 
 <div class="gallery-box">
   <div class="gallery">
@@ -366,20 +397,24 @@ After releasing that first version, analytics helped us realise that <strong>+80
   <em>Learning about communities around the world</em>
 </div>
 
-<p>We found out that (…)</p>
+<p>The Tel Aviv ecosystem was the most interesting: massive access to funding, hyper connected founders and lots of vibrant communities. We conducted another round of interviews and this time <strong>we documented it rigorously</strong>.</p>
 
 <p><img src="/images/work/gfs-directory/gfs_interviews.png" alt="" />
 <!-- *Search by skill* --></p>
 
+<p>In Madrid, communities were vertical: fintech, product management or machine learning. When you leave your job to start a company, you have to start building a new network to get access to funding, hiring, mentoring and corporate clients.</p>
+
+<p>In Tel Aviv, communities were horizontal, probably because most of people serve in the army. That’s where they start building their professional network, so when they start a company, they’ve already met PMs, developers and would-be big corporation employees.</p>
+
+<p><img src="/images/work/gfs-directory/gfs_tlv-research.png" alt="" /></p>
+
+<p>Event feature (…)</p>
+
+<p><img src="/images/work/gfs-directory/gfs_events-draft.png" alt="" /></p>
+
 <h4 id="new-needs-new-features">New needs, new features</h4>
 
-<p>During the last bits of the pre-pandemic world we conducted that research and worked in several improvements for the Directory. We started <a href="https://communitytools.co/">Community Tools</a> with the goal to offer this product to more communities outside Google for Startups, and to develop new open source solutions.</p>
-
-<p>2020 was a tough year for all. Our plans for the directory inside and outside Google had to be put on hold (…)</p>
-
-<p>Since we launched <a href="gfs-directory">the first version</a> of our Community Directory, many things changed. The global community went from offline to online, we welcomed new members from Japan, Korea and Warsaw, and the needs of both the members and the community builders evolved.</p>
-
-<p>(…) our research pointed us to different new directions, and the Google team requested new features, so we decided to <strong>revamp the whole layout and the development pipeline</strong> to better adapt to product changes and improvements.</p>
+<p>During the last bits of the pre-pandemic world we conducted that research and worked in several improvements for the Directory.</p>
 
 <p>In Tel Aviv we discovered that people use Facebook as we use LinkedIn here in Spain–if you want to contact the CEO of a company you want to work with, you send them a friend request. Because Facebook is used both personally and professionally (and because the product itself is designed to be and endless source of content) the number of daily notifications turns valulable information into noise.</p>
 
@@ -391,6 +426,11 @@ After releasing that first version, analytics helped us realise that <strong>+80
 <em>The layout was perfect… for just one thing</em></p>
 
 <p>SORTING, NOTIFICATIONS, FAQ and SLACK</p>
+
+<h4 id="changes-to-the-backoffice">Changes to the backoffice</h4>
+
+<p><img src="/images/work/gfs-directory/gfs_backoffice-cms.png" alt="The backoffice" />
+<em>The backoffice CMS</em></p>
 
 <h3 id="the-second-iteration-a-modular-architecture"><strong>The second iteration</strong>: a modular architecture</h3>
 
@@ -441,20 +481,16 @@ After releasing that first version, analytics helped us realise that <strong>+80
 
 <p>It’s as simple as picking a base size that’s a multiple of 4 (our typographic grid is in base 4, because the layout grid is in base 8) and multiply it for a standarised constant:</p>
 
-<div style="background: var(--medium-gray); padding: 8px; margin-bottom: 16px; border-radius: 8px;">
-
-<code>media only screen and (min-width: $tablet) {
-	font-size: $base-font-size * 1.250;
-}</code>
-
+<div style="background: var(--syntax-highlighting-background); padding: 8px; margin-bottom: 16px; border-radius: 8px;">
+  <code>media only screen and (min-width: $tablet) {
+    font-size: $base-font-size * 1.250;
+  }</code>
 </div>
 
 <p>where</p>
 
-<div style="background: var(--medium-gray); padding: 8px; margin-bottom: 16px; border-radius: 8px;">
-
-<code>$base-font-size: 14px;</code>
-
+<div style="background: var(--syntax-highlighting-background); padding: 8px; margin-bottom: 16px; border-radius: 8px;">
+  <code>$base-font-size: 14px;</code>
 </div>
 
 <p>That way, in viewports where we really can’t control our main container’s width (tablets in portrait orientation, very wide smartphones…), typography will scale to achieve optimal legibility.</p>

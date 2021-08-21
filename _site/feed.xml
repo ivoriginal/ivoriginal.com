@@ -5,31 +5,121 @@
         <description></description>
         <link>/</link>
         <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 10 Aug 2021 13:20:14 +0200</pubDate>
-        <lastBuildDate>Tue, 10 Aug 2021 13:20:14 +0200</lastBuildDate>
+        <pubDate>Sat, 21 Aug 2021 13:06:23 +0200</pubDate>
+        <lastBuildDate>Sat, 21 Aug 2021 13:06:23 +0200</lastBuildDate>
         <generator>Jekyll v4.2.0</generator>
         
             <item>
-                <title>Reflexiones sobre la docencia (y la vida)</title>
-                <description>&lt;p&gt;En 2020 empecé a trabajar en una academia y en 2021 se acabó. Bear with me para tremenda historia.&lt;/p&gt;
+                <title>El oficio de moldear conciencias</title>
+                <description>&lt;!-- #### La introducciò --&gt;
 
-&lt;h4 id=&quot;la-introducciò&quot;&gt;La introducciò&lt;/h4&gt;
+&lt;h4 id=&quot;acción-reacción&quot;&gt;Acción-reacción&lt;/h4&gt;
 
-&lt;p&gt;En febrero de 2020 volvía a Madrid en uno de esos autobuses viejos que huelen a perfume y a tabaco con una mochila a los hombros y un par de libros en la mano. Había pasado unos días en la costa con mi familia. O con un amigo. O con un amante. No me acuerdo. Sí recuerdo que la señora que iba sentada a mi lado me dijo:&lt;/p&gt;
+&lt;p&gt;En febrero de 2020 volvía yo a Madrid en uno de esos autobuses viejos que huelen a perfume y tabaco con una mochila a los hombros y un par de libros en la mano. Había pasado unos días en la costa con mi familia. O con un amigo. O con un amante. No me acuerdo.&lt;/p&gt;
+
+&lt;p&gt;Sí recuerdo que la señora que iba sentada a mi lado me dijo:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Pareces un profesor con esos libros y las gafitas.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Ciertos condicionantes genéticos unidos al pobre uso de pantallas que venía haciendo los 16 años posteriores a el comentario de la señora desembocaron en que en septiembre de 2019 mi óptica de confianza me recomendase empezar a usar gafas. No podemos saber si esta serie de sucesos está relacionada de alguna forma con la llamada que recibí poco después de un tal Ángel Corral, gerente de una academia de formación para profesionales de la industria digital llamada Fictizia.&lt;/p&gt;
+&lt;p&gt;Ciertos condicionantes genéticos unidos a 16 años de mal uso de pantallas desembocaron en que en diciembre de 2019 mi óptica de confianza me recomendase &lt;strong&gt;empezar a usar gafas&lt;/strong&gt;. Poco después recibí una llamada de Ángel Corral, el aquél entonces gerente de una academia de formación para profesionales de la industria digital llamada Fictizia.&lt;/p&gt;
 
-&lt;p&gt;Ángel y su equipo anotaban ya 9 años de formar a la gente que vive o frecuenta la capital del reino en la creación de gráficos en tres dimensiones y efectos especiales para cine y televisión, en las distintas ramas del desarrollo de software y en el diseño de producto digital. &lt;!-- Si te parece que estoy explicando demasiado sobre las materias que se impartían en Fictizia, te recomiendo encarecidamente que hagas amigos fuera del sector. --&gt;La razón de la llamada: necesitaban un par de manos más para impartir la próxima edición del máster en experiencia de usuario (UX) y diseño visual de interfaces (UI), y si venían con un cerebro y el resto de aparatos que usamos los humanos para comunicarnos, mejor que mejor. Solo con unas manos, poco se puede hacer.&lt;/p&gt;
+&lt;p&gt;Ángel y su equipo llevaban 9 años formando a la gente que vive o frecuenta &lt;a href=&quot;https://es.wikipedia.org/wiki/Madrid&quot;&gt;la capital del Reino&lt;/a&gt; en la creación de gráficos en tres dimensiones, de efectos especiales para cine y televisión, en las distintas ramas del desarrollo de software y en el diseño de producto digital.&lt;/p&gt;
 
-&lt;p&gt;En la línea espacio-temporal en la que estoy escribiendo éstas palabras han pasado ya 6 años desde que conocí a Ángel Corral. Sería el año 2015, y estaría yo dando mis primeros pasitos profesionales en la industria de posicionar píxeles. Desde entonces he ayudado a unas cuantas empresas y personas a vender más bienes y servicios, ingresado bastante dinero en mi cuenta bancaria y aprendido un truquito o tres. Y te puedo asegurar que he posicionado un montón de píxeles.&lt;/p&gt;
+&lt;p&gt;9 años &lt;strong&gt;moldeando conciencas&lt;/strong&gt;, que dirían algunos.&lt;/p&gt;
 
-&lt;p&gt;No sé cuándo decidió Ángel que mis manos eran el par que necesitaban, pero desde luego que yo no me lo pensé demasiado. Llevaba tiempo observando cómo funciona ésta nuestra industria, quejándome de la praxis poco rigurosa, del trabajo mal pensado y peor rematado, buscando referentes en los lugares equivocados. En absoluto pensaba llegar y arreglarlo todo yo solito, pero desde luego que quería poner mi granito de arena.&lt;/p&gt;
+&lt;!-- Si te parece que estoy explicando demasiado sobre las materias que se impartían en Fictizia, te recomiendo encarecidamente que hagas amigos fuera del sector. --&gt;
 
-&lt;p&gt;No había colgado el teléfono cuando cogí el siguiente autobús, ésta vez camino a Fictizia para conocer a Mike, el tipo que coordinaba el máster que yo le iba a ayudar a impartir. Menudo tipo. Espectactular presentación.&lt;/p&gt;
+&lt;p&gt;La razón de la llamada: necesitaban un par de manos adicional para impartir la próxima edición del máster en experiencia de usuario (UX) y diseño visual de interfaces (UI). Un par de manos &lt;a href=&quot;https://addamsfamily.fandom.com/wiki/Thing&quot;&gt;unidas a un humano&lt;/a&gt;, quiero decir.&lt;/p&gt;
+
+&lt;p&gt;En la línea espacio-temporal en la que estoy escribiendo éste post han pasado ya 6 años desde que conocí a Ángel Corral. Sería el año 2015, y estaría yo dando mis primeros pasitos profesionales en la industria de posicionar píxeles.&lt;/p&gt;
+
+&lt;p&gt;Desde entonces, he ayudado a unas cuantas empresas y personas a vender más bienes y servicios, ingresado algún dinero en mi cuenta bancaria y aprendido un truco o tres. Y posicionado un montón de píxeles, también.&lt;/p&gt;
+
+&lt;p&gt;No sé cuándo decidió Ángel que mis manos eran el par que necesitaban, pero &lt;strong&gt;tampoco le dí muchas vueltas&lt;/strong&gt;. Llevaba tiempo observando la industria, quejándome de la praxis poco rigurosa, del trabajo mal pensado y peor rematado, buscando referentes en los lugares equivocados.&lt;/p&gt;
+
+&lt;p&gt;En absoluto pensaba llegar y arreglarlo todo yo solito, pero vaya que si pensaba poner mi granito de arena.&lt;/p&gt;
+
+&lt;p&gt;Minutos después de colgar cogía el siguiente autobús, ésta vez camino a Plaza de España, en el corazón de Madrid. Un estrecho portal y dos tramos de escaleras separaban la calle de las instalaciones de Fictizia, donde Ángel solía recibir con una sonrisa a alumnos, profesores y curiosos.&lt;/p&gt;
+
+&lt;h4 id=&quot;apretón-de-pares-de-manos&quot;&gt;Apretón de (pares de) manos&lt;/h4&gt;
+
+&lt;p&gt;Aquél día conocería a &lt;a href=&quot;https://www.linkedin.com/in/mikenoah&quot;&gt;Mike&lt;/a&gt;, el humano encargado de decidir qué se aprendía y cuándo en el máster de diseño. Su carga de trabajo en una conocida consultora digital le estaba dificultando seguir el ritmo del máster. Ya sabes, las revolución industrial y sus consecuencias.&lt;/p&gt;
+
+&lt;p&gt;Tras revisar el temario, el formato, alcance, objetivos, dedicación, el presupuesto e intercambiar dos o tres cotilleos sobre quién hace qué y cómo, &lt;strong&gt;nos apretamos las manos&lt;/strong&gt; y nos pusimos ídem a la obra. No literalmente, claro. Ni en ese mismo momento.&lt;/p&gt;
+
+&lt;p&gt;Aquí va una elipsis. Porque yo me fui a casa, realmente. Y Mike se fue a dar su clase. Y después pasó un tiempo, puede que semanas. No me acuerdo. Pero no te interesarán los detalles, imagino. Comí muchas veces y fui al baño otras tantas. Lo que se saltan en las pelis, vamos.&lt;/p&gt;
+
+&lt;p&gt;Sí recuerdo que empecé a apuntar notas sobre conocimientos que en algún momento adquirí y a relacionarlos con la estructura que Mike había diseñado para el máster. Ya sabes, lo de &lt;a href=&quot;https://medium.com/@matthewraychiang/doet-knowledge-in-the-head-and-in-the-world-64f901627eb3&quot;&gt;knowledge in the world&lt;/a&gt; y todo eso.&lt;/p&gt;
+
+&lt;p&gt;Nuestra primera edición conjunta empezaba en marzo de 2020. Pero ya sabes lo que pasó en marzo de 2020. Si por aquél entonces estabas indispuesta y no te has enterado, no seré yo el que te lo cuente. Prepárate una tila, ponte cómoda y búscalo en &lt;a href=&quot;https://duckduckgo.com/?q=covid+19&amp;amp;t=hx&amp;amp;va=g&amp;amp;ia=coronavirus&quot;&gt;tu buscador de confianza&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Finalmente empezamos en octubre de 2020, terminando en marzo del 21. La primera mitad la daría yo, centrándome en la parte más práctica: diseño de interfaz visual, manejo de herramientas, breve contexto de la industria (estado del arte, expectativas laborales…), prototipado y alguna cosilla más. La segunda mitad la daría Mike. Pero nunca la dió. Ahora te cuento por qué.&lt;/p&gt;
+
+&lt;p&gt;Primero te voy a contar &lt;strong&gt;la montaña rusa de emociones&lt;/strong&gt; que fue esa primera edición.&lt;/p&gt;
+
+&lt;h4 id=&quot;la-montaña-rusa-de-emociones&quot;&gt;La montaña rusa de emociones&lt;/h4&gt;
+
+&lt;p&gt;Estuve una tarde con Ángel aprendiendo cómo da uno clase en plena pandemia. Parte del alumnado vendría a las instalaciones de Plaza de España, y otra parte &lt;strong&gt;seguiría la clase desde casa&lt;/strong&gt; por videollamada, así que no me podría mover de mi silla (para que los remotos me pudiesen ver y oir).&lt;/p&gt;
+
+&lt;p&gt;También tendría que controlar las entradas y salidas de audio en tiempo real: si alguien activaba el micro de su ordenador para hacer una pregunta, el sonido saldría por mi altavoz, colándose por duplicado a través de mi micrófono y dejando sordos a los remotos.&lt;/p&gt;
+
+&lt;p&gt;Si yo desactivaba mi altavoz, no oiría a los remotos preguntar. El truco era desactivarlo únicamente mientras alguien que estuviese en el aula preguntaba, lo que reducía un poco el dinamismo, pero… No se puede tener todo.&lt;/p&gt;
+
+&lt;p&gt;Ocasionalmente habría algún contacto con positivos que nos obligaría a movernos temporalmente a &lt;em&gt;full remote&lt;/em&gt; y dar las clases desde casa con un setup completamente distinto.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/images/02/prototipo.png&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;Dando clase desde casa, Elena se agobia al ver un prototipo con muchos enlaces&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Suena un poco complicado… porque lo es. Suerte que cuando era joven pasé unos meses realizando un programa en directo desde un sótano en Lavapiés. Más o menos &lt;strong&gt;sabía a qué me enfrentaba&lt;/strong&gt;, y podía solucionar problemas técnicos en tiempo real.&lt;/p&gt;
+
+&lt;p&gt;Qué coño, un día no pudo venir al estudio uno de los presentadores y se me ocurrió coger un par de fotogramas de programas previos, recortar su silueta, aplicarle un filtro con After Effects y convertirlo en holograma, pinchando su voz via Skype.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/images/02/ego_poster.png&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;El holograma improvisado&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Solucionada la parte técnica, lo único que quedaba por hacer era mantener la atención de un grupo absolutamente heterogéneo de casi una docena de personas durante 3 horas, tres días a la semana, hasta completar las 150 que duraba la formación.&lt;/p&gt;
+
+&lt;p&gt;Eso, y asegurarme de que nadie se quedaba atrás, de que todo el mundo aprendía, de que estaban todas contentas y animadas y de no soltar ningún improperio. Al fin y al cabo, las videollamadas se grababan para futura referencia.&lt;/p&gt;
+
+&lt;p&gt;Cometí muchos &lt;strong&gt;errores de novato&lt;/strong&gt;, claro. Quería que supieran que no hay un solo camino, ni hay uno bueno y otros malos. Quería que supiesen que hay mucho trabajo, y que aunque no es oro todo lo que reluce, hay oportunidades para hacer las cosas bien, pasarla bien y (eventualmente) encontrar unas condiciones laborales que (la mayoría de) nuestros padres y madres no se habrían imaginado nunca.&lt;/p&gt;
+
+&lt;p&gt;Pero no se puede contar todo eso el primer día, cojones. Y eso es exactamente lo que hice: bombardearles con información nueva y palabras confusas: CRO, UI, VUI y GUI; VFX, IxD, UX, y xXx–tremenda película protagonizada por Vin Diesel.&lt;/p&gt;
+
+&lt;p&gt;Dicen que el samurái novato está deseoso por empuñar la espada, mientras que el maestro gana batallas sin desenvainarla siquiera. O algo así.&lt;/p&gt;
+
+&lt;p&gt;El primer día, algunas salieron emocionadas por las cuasi infinitas posibilidades que se abrían a su frente. Otras, absolutamente desmoralizadas por la cantidad gigante de información nueva que procesar. Al margen del error de novato, ya pude ir viendo quién iba a destacar y quién me iba a costar un esfuerzo extra.&lt;/p&gt;
+
+&lt;h4 id=&quot;un-grupo-absolutamente-heterogéneo&quot;&gt;Un grupo absolutamente heterogéneo&lt;/h4&gt;
+
+&lt;p&gt;En mi primera edición me tocó un grupo muy dispar. Había gente con experiencia en diseño gráfico y gente que apenas había tocado un ordenador. Gente extrovertida y preguntona. Gente introvertida y reacia a participar.&lt;/p&gt;
+
+&lt;p&gt;La primera semana ya estábamos jugando con Figma, y se podían intuir las expresiones de confusión bajo las mascarillas al explicar las diferencias entre grupos y &lt;em&gt;frames&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Uno de los mayores retos en esta fase fue evitar que la gente más inquieta se pusiese a jugar y experimentar con la herramienta por su cuenta a destiempo. No podemos ponernos a aprender trucos con el skate antes de aprender a frenar, que luego cogemos velocidad y nos la pegamos.&lt;/p&gt;
+
+&lt;p&gt;Enseguida vi progreso en todos los niveles, y mi primer indicador de que no lo estaba haciendo del todo mal fue cuando abrieron su primer prototipo interactivo en sus teléfonos. Ojalá poder reproducir aquí las caras que pusieron al ver que podían interactuar con sus creaciones.&lt;/p&gt;
+
+&lt;p&gt;Al terminar ese día, un alumno se levantó y me dio las gracias por el dinamismo de las clases y la sensación de progreso. Íbamos por el buen camino.&lt;/p&gt;
+
+&lt;h4 id=&quot;algunos-polluelos-se-caen-del-nido&quot;&gt;Algunos polluelos se caen del nido&lt;/h4&gt;
+
+&lt;p&gt;Otro reto fue conectar con algunas de las personas que seguían las clases por videollamada. Intenté contactar en privado con una de ellas varias veces, pero la aparente falta de interés me acabó llevando a darla por perdida.&lt;/p&gt;
+
+&lt;p&gt;Hasta que un día recibí un mensaje en que me contaba una situación personal que le estaba generando un estrés insoportable, y que le costaba mucho concentrarse en clase. El horario, de 19 a 22, tampoco ayudaba, supongo. Sabía que se estaba quedando muy atrás, y me pedía disculpas por si había pensado que simplemente había perdido el interés.&lt;/p&gt;
+
+&lt;p&gt;Organizamos una pequeña tutoría de fin de semana para ayudarla a ponerse al día, y vi cierto progreso en los meses posteriores, pero he de confesar que nunca conseguí engancharla del todo.&lt;/p&gt;
+
+&lt;p&gt;Se sintió como un pequeño fracaso personal, porque al principio del máster les conté a las alumnas que mi compromiso con su futuro laboral iba más allá de lo profesional. Quizá me equivoqué con ese enfoque. No lo sé.&lt;/p&gt;
+
+&lt;p&gt;Para mí &lt;strong&gt;no era solo un trabajo&lt;/strong&gt;. No lo hacía solo por el dinero. Quería darles la guía que yo eché en falta cuando me inicié de forma autodidacta. No tuve recursos para seguir una formación reglada, y aunque los hubiese tenido, nunca me he desenvuelto bien sentado en un aula. Lo pasé francamente mal, siempre dudando de si lo que hacía estaba bien, no sabiendo cómo hacer que mi carrera avanzase…&lt;/p&gt;
+
+&lt;p&gt;Quizá, dando clase, me costó establecer los límites. Uno no puede tomarse la imposibilidad de alguien para seguir el ritmo como un fracaso personal. Tampoco la falta de voluntad, en otros casos.&lt;/p&gt;
+
+&lt;p&gt;Al fin y al cabo, el trabajo del docente, según como yo lo veo, es &lt;strong&gt;facilitar la información y su comprensión&lt;/strong&gt;. El alumno debe solicitar facilitación adicional en caso de que la compresión falle. Y el nivel de dedicación individual es inversamente proporcional a la ratio alumno-profesor.&lt;/p&gt;
+
+&lt;h4 id=&quot;la-segunda-montaña-rusa&quot;&gt;La segunda montaña rusa&lt;/h4&gt;
 
 &lt;p&gt;Lambiris&lt;/p&gt;
 
@@ -41,7 +131,7 @@
 
 &lt;p&gt;https://www.twitch.tv/videos/1102942923&lt;/p&gt;
 </description>
-                <pubDate>Sun, 08 Aug 2021 15:01:35 +0200</pubDate>
+                <pubDate>Thu, 19 Aug 2021 10:01:35 +0200</pubDate>
                 <link>/blog/adios-fictizia</link>
                 <guid isPermaLink="true">/blog/adios-fictizia</guid>
                 
