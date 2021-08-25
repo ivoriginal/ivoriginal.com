@@ -8,7 +8,8 @@ description:
 
 <div class="container">
   <div class="blog-layout row animate justify-content-center justify-content-space-between">
-    <div class="col col-7 col-m-12 col-t-12 col-d-12 justify-content-center blog-posts">
+    <!-- Content -->
+    <div class="col col-7 col-m-12 col-t-12 col-d-12 justify-content-center blog-posts pa-xs-0">
       <!-- <h4 class="blog__title">Artículos</h4> -->
       {% if site.posts.size > 0 %}
         {% for post in paginator.posts %}
@@ -16,18 +17,23 @@ description:
         {% endfor %}
       {% endif %}
     </div>
-    <div class="col col-4 col-m-12 col-t-12 col-d-12 mb-xs-2 categories">
+    <!-- /Content -->
+    <!-- Tags -->
+    <div class="col col-4 col-m-12 col-t-12 col-d-12 mb-xs-2 categories pl-xs-0 pr-xs-0 px-md-2">
       {% if site.tags %}
-      <h4 class="blog__title">Categorías</h4>
-      <div class="tags">
+      <h4 class="blog__title pl-xs-1">Temas</h4>
+      <div class="tags pl-xs-1">
         {% for tag in site.tags %}
           {% assign t = tag | first %}
           {% assign posts = tag | last %}
-          <div class="tag">{{t | replace:" ","-" }}</div>
+          <div class="tag">
+            {{t | replace:" ","-" }}
+          </div>
         {% endfor %}
       </div> 
       {% endif %} 
     </div>
+    <!-- /Tags -->
   </div>
 </div>
 
