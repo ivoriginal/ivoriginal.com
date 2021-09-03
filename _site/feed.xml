@@ -5,8 +5,8 @@
         <description></description>
         <link>/</link>
         <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 25 Aug 2021 14:46:02 +0200</pubDate>
-        <lastBuildDate>Wed, 25 Aug 2021 14:46:02 +0200</lastBuildDate>
+        <pubDate>Fri, 03 Sep 2021 18:13:56 +0200</pubDate>
+        <lastBuildDate>Fri, 03 Sep 2021 18:13:56 +0200</lastBuildDate>
         <generator>Jekyll v4.2.0</generator>
         
             <item>
@@ -42,7 +42,7 @@ Minutos después de colgar cogía el siguiente autobús, ésta vez camino a Plaz
 
 &lt;p&gt;No literalmente, claro. Ni en ese mismo momento. Porque yo me fui a casa, realmente. Y Mike se fue a dar su clase. Y después pasó un tiempo, puede que semanas. No me acuerdo. Sí recuerdo que empecé a apuntar notas sobre conocimientos que en algún momento adquirí y a relacionarlos con la estructura que Mike había diseñado para el máster. Ya sabes, lo de &lt;a href=&quot;https://medium.com/@matthewraychiang/doet-knowledge-in-the-head-and-in-the-world-64f901627eb3&quot;&gt;knowledge in the world&lt;/a&gt; y todo eso.&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Pronto liberaré todas esas notas. Puedes [seguirme](https://twitter.com/ivoriginal) para enterarte cuando lo haga, y de paso seguir a [Diego](https://twitter.com/arketipo), otro ex-profe de Fictizia que anda con un proyecto similar y seguramente mejor.&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Pronto liberaré todas esas notas. Puedes &lt;a href=&quot;https://twitter.com/ivoriginal&quot;&gt;seguirme&lt;/a&gt; para enterarte cuando lo haga, y de paso seguir a &lt;a href=&quot;https://twitter.com/arketipo&quot;&gt;Diego&lt;/a&gt;, otro ex-profe de Fictizia que anda con un proyecto similar y seguramente mejor.&lt;/p&gt;
 
 &lt;p&gt;Nuestra primera edición conjunta empezaba en marzo de 2020. Pero ya sabes lo que pasó en marzo de 2020. Si por aquél entonces estabas indispuesta y no te has enterado, no seré yo el que te lo cuente. Prepárate una tila, ponte cómoda y búscalo en &lt;a href=&quot;https://duckduckgo.com/?q=covid+19&amp;amp;t=hx&amp;amp;va=g&amp;amp;ia=coronavirus&quot;&gt;tu buscador de confianza&lt;/a&gt;. Finalmente empezamos en octubre de 2020, terminando en marzo del 21. 
 La primera mitad la daría yo, centrándome en la parte más práctica: diseño de interfaz visual, manejo de herramientas, breve contexto de la industria (estado del arte, expectativas laborales…), prototipado y alguna cosilla más. La segunda mitad la daría Mike. Pero nunca la dió. Ahora te cuento por qué.&lt;/p&gt;
@@ -102,10 +102,7 @@ Pero no se puede contar todo eso el primer día, cojones. Y eso es exactamente l
 
 &lt;p&gt;Se sintió como un pequeño fracaso personal, porque al principio del máster les conté a las alumnas que mi compromiso con su futuro laboral iba más allá de lo profesional. Quizá me equivoqué con ese enfoque. No lo sé. Para mí &lt;strong&gt;no era solo un trabajo&lt;/strong&gt;. No lo hacía solo por el dinero. Quería darles la guía que yo eché en falta cuando me inicié de forma autodidacta. No tuve recursos para seguir con mi formación reglada (podría haber continuado en otra universidad), y aunque los hubiese tenido, nunca me he desenvuelto bien sentado en un aula.&lt;/p&gt;
 
-&lt;p&gt;Lo pasé francamente mal, siempre dudando de si lo que hacía estaba bien, no sabiendo cómo hacer que mi carrera avanzase… Imagino que habrás oído hablar del &lt;a href=&quot;https://es.wikipedia.org/wiki/S%C3%ADndrome_del_impostor&quot;&gt;síndrome del impostor&lt;/a&gt;. Quizá, dando clase, &lt;strong&gt;me costó establecer los límites&lt;/strong&gt;. Uno no puede tomarse la imposibilidad de alguien para seguir el ritmo como un fracaso personal. Tampoco la falta de voluntad, en otros casos. Al fin y al cabo, el trabajo del docente, según como yo lo veo, es &lt;strong&gt;facilitar la información y su comprensión&lt;/strong&gt;. El alumno debe solicitar facilitación adicional en caso de que la compresión falle. Y el nivel de dedicación que puedes dedicar a cada persona es inversamente proporcional al número de alumnos, como bien explica aquí Olga:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/images/02/ego_poster.png&quot; alt=&quot;&quot; /&gt;
-&lt;em&gt;El holograma improvisado&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Lo pasé francamente mal, siempre dudando de si lo que hacía estaba bien, no sabiendo cómo hacer que mi carrera avanzase… Imagino que habrás oído hablar del &lt;a href=&quot;https://es.wikipedia.org/wiki/S%C3%ADndrome_del_impostor&quot;&gt;síndrome del impostor&lt;/a&gt;. Quizá, dando clase, &lt;strong&gt;me costó establecer los límites&lt;/strong&gt;. Uno no puede tomarse la imposibilidad de alguien para seguir el ritmo como un fracaso personal. Tampoco la falta de voluntad, en otros casos. Al fin y al cabo, el trabajo del docente, según como yo lo veo, es &lt;strong&gt;facilitar la información y su comprensión&lt;/strong&gt;. El alumno debe solicitar facilitación adicional en caso de que la compresión falle. Y el nivel de dedicación que puedes dedicar a cada persona es inversamente proporcional al número de alumnos.&lt;/p&gt;
 
 &lt;p&gt;Pero los polluelos se siguen cayendo, y la última vez que me encontré uno en la acera, no me paré a recogerlo. Me estaré haciendo viejo.&lt;/p&gt;
 
@@ -150,9 +147,15 @@ Pero no se puede contar todo eso el primer día, cojones. Y eso es exactamente l
 
 &lt;p&gt;No eres Dios. Nadie lo es.&lt;/p&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;hr /&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;p&gt;Gracias Ángel por ayudarme a ser más honesto, más humilde, más amable. &lt;a href=&quot;https://www.youtube.com/watch?v=6UBwtL__280&amp;amp;ab_channel=WarnerMusicSpain&quot;&gt;Más humano y menos raro&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;In Memoriam (2011-2021)&lt;/p&gt;
 
