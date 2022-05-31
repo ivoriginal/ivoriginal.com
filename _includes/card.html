@@ -19,16 +19,24 @@
 
             <p class="article__excerpt">{% if card.description %}{{ card.description }}{% else %}{{ card.content | strip_html | truncate: 80 }}{% endif %}</p>
           </div>
+          
+          <div style="margin-top: 12px;">
+            {% if card.client %}
+            <p class="article__excerpt">
+              <strong>Client:</strong> {{ card.client }}
+            </p>
+            {% endif %}
 
-          {% if card.client %}
-          <p class="article__excerpt" style="margin-top: 12px;">
-            <strong>Client:</strong> {{ card.client }}
-          </p>
-          {% endif %}
+            {% if card.industry %}
+            <p class="article__excerpt" style="margin-top: 4px;">
+              <strong>Industry:</strong> {{ card.industry }}
+            </p>
+            {% endif %}
 
-          {% if card.tags %}
-          <div class="tag">#{{ card.tags }}</div>
-          {% endif %}
+            {% if card.tags %}
+            <div class="tag">#{{ card.tags }}</div>
+            {% endif %}
+          </div>
 
           {% if card.cta %}
           <div class="flex">

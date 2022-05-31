@@ -16,6 +16,11 @@ body {
   //   font-size: $base-font-size;
   // }
 
+    // Adds space for bottom navigation
+    // @media only screen and (max-width: $tablet) {
+    //   padding-bottom: 56px;
+    // }
+
 }
 
 *::selection {
@@ -221,7 +226,7 @@ table td {
   font-size: 16px;
   font-weight: 700;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 4px;
   border: none;
   outline: none;
   cursor: pointer;
@@ -290,12 +295,6 @@ table td {
 
 .padding-bottom {
   padding-bottom: 56px;
-}
-
-body {
-  @media only screen and (max-width: $tablet) {
-    padding-bottom: 56px;
-  }
 }
 
 .background-white {

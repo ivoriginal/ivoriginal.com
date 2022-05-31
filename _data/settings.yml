@@ -1,7 +1,7 @@
 #-------------------------------
 # Site Settings
 title: Ivo Vilches
-logo: # You can add own logo. For example '/images/logo.png'.
+# logo: '/images/avatar_no-bg.png'
 author: Ivo Vilches
 description: Diseño y cosas wapas
 
@@ -12,11 +12,11 @@ menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'Now'
-      url: '/now/'
+    # - title: 'Now'
+    #   url: '/now/'
     - title: 'Work'
       url: '/work/'
-    - title: 'Blog'
+    - title: 'Blog <p class="material-icons">open_in_new</p>'
       url: '/blog/'
     - title: 'About'
       url: '/about/'
@@ -25,41 +25,41 @@ menu__settings:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Hey! I'm Ivo, a freelance Product Designer, teacher, musician and hand model*
-  hero__description: In this digital space you can see what I'm doing <a href="/now">right now</a>, check out <a href="/work">my work</a>, read <a href="/blog">my random reflections</a> and know a little bit more <a href="/about">about me</a>.
+  hero__title: Ivo is a full stack designer that can help you throughout all the stages of product design. <br><br> He has worked in finance, real estate, logistics and education with companies like Google or Santander and startups like Arbor. <br><br> His practice includes –but is not limited to– interface design, research, front-end development, copywriting, project management and CRO. <br><br> Hence the "full stack" in "full stack designer". <br><br> He thinks that it's quite odd to write about one's self in third person, but it surely looks more professional. <br><br> You can see some of his work <a href="/work">here</a> or get in touch <a href="mailto:ivo@commitsans.com">there</a>.
+  # hero__description: In this digital space you can see what I'm doing <a href="/now">right now</a>, check out <a href="/work">my work</a>, read <a href="/blog">my random reflections</a> and know a little bit more <a href="/about">about me</a>.
 
 
 #-------------------------------
 # Upcoming talk
-upcoming__talk: 
-  - image: https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F137099023%2F314386638610%2F1%2Foriginal.20210531-075555?w=800&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C1024%2C512&s=c8acced3645dad663ec42af60b385a21
-    title: "Tetuan Valley Startup School: Product development & UX"
-    description: We will talk about the most optimal way to develop and design your product in order to make it more attractive and construct it in a correct way.
-    cta: Get your ticket
-    url: https://www.eventbrite.es/e/tetuan-valley-startup-school-product-development-ux-tickets-157033584679
+# upcoming__talk: 
+#   - image: https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F137099023%2F314386638610%2F1%2Foriginal.20210531-075555?w=800&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C1024%2C512&s=c8acced3645dad663ec42af60b385a21
+#     title: "Tetuan Valley Startup School: Product development & UX"
+#     description: We will talk about the most optimal way to develop and design your product in order to make it more attractive and construct it in a correct way.
+#     cta: Get your ticket
+#     url: https://www.eventbrite.es/e/tetuan-valley-startup-school-product-development-ux-tickets-157033584679
 
 
 #-------------------------------
 # Now
 now:
   now__title: Now
-  now__subtitle: test
+  now__subtitle:
   now__content:
     - # image: /images/work/gfs-directory/campus-london.jpg
       # title: 👷‍♂️
-      description: Recording <strong>Abrimos Melón</strong>, a podcast where <a href="https://codingcarlos.com/">Carlos</a> and I talk about a random topic while eating.
+      description: Recording <strong>Abrimos Melón</strong>, a podcast where <a href="https://codingcarlos.com/">Carlos</a> and I talk about something (yes, anything!) while eating
       url: https://linktr.ee/abrimosmelon
       cta: Sounds refreshing
 
     - # image: /images/commit-sans.jpg
       # title: 🧱
-      description: Founding a studio called <strong>Commit Sans</strong> where we design and develop software. 0% bullshit 100% product.
+      description: Hiring new faces to help <strong>Commit Sans</strong> with its next project, which involves copywriting and IoT
       url: https://commitsans.com/
       cta: It's a Commit-ment
 
     - # image: /images/work/gfs-directory/campus-london.jpg
       # title: 👷‍♂️
-      description: Building <strong>Community Tools</strong> to help people connect in communities in Madrid, Tel Aviv and Seoul.
+      description: Deploying <strong>Community Tools</strong>'s new UI to all its users in Madrid, Tel Aviv and Seoul
       url: https://communitytools.co/
       cta: More like Commu-nice-ty Tools
 

@@ -35,7 +35,13 @@
         </div>
       </div>
     </div>
-    {% include section-talks-2.html %}
+
+    <!--  -->
+    {% if site.data.settings.upcoming__talk %}
+      {% include section-talks-2.html %}
+    {% endif %}
+    <!-- / -->
+
     <div class="container">
       <!--  -->
       <div class="mb-3 mb-lg-5 mt-lg-1 snippet col">

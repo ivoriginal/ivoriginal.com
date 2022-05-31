@@ -1,9 +1,13 @@
 /* Hero */
 .hero {
-  background-color: white;
-  margin-bottom: 40px;
-  padding: 72px 0 56px 0;
-  border-bottom: 1px solid var(--medium-gray);
+  background-color: var(--light-gray);
+  // margin-bottom: 40px;
+  padding: 80px 0 56px 0;
+  // border-bottom: 1px solid var(--medium-gray);
+
+  a {
+    border-bottom: 4px solid black;
+  }
 
   .hero__description a {
     // border-bottom: 2px solid var(--gray);
@@ -38,27 +42,8 @@
     }
   }
 
-  // 
-  @media only screen and (max-width: $tablet) {
-
-    // fixes space between text and button
-    .button {
-      margin-top: 56px;
-    }
-
-  }
-
   @media only screen and (max-width: $desktop) {
     
-    // aligns content and text
-    margin: 0px 0px 32px 0px;
-    padding: 0px 0px 40px 0px;
-    text-align: center;
-    
-    // swaps img and text
-    .row {
-      flex-direction: column-reverse;
-    }
 
   }
 
@@ -136,7 +121,7 @@
 
 // 
 .work .hero-2 {
-  padding: 148px 0 24px 0;
+  // padding: 148px 0 24px 0;
   // padding: 72px 0 32px 0;
 }
 

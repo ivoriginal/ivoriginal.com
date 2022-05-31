@@ -22,12 +22,8 @@ This project was huge and it lasted three years, so it'll take me a while to pol
   <!-- <em>Headshots by <a href="https://www.instagram.com/p/B_hgK19jhvD/" target="_blank">Mario</a></em> -->
 </div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLDg28owCbi4p7CVW4YO1YlrY5D7VzQNKt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br />
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLDg28owCbi4p7CVW4YO1YlrY5D7VzQNKt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 <iframe width="806" height="453" src="https://www.youtube.com/embed/R7E4cjZke8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<br />
-
-<iframe width="806" height="453" src="https://www.youtube.com/embed/16gTCYtD5UA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- <iframe width="806" height="453" src="https://www.youtube.com/embed/16gTCYtD5UA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
